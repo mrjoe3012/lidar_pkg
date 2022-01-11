@@ -1,0 +1,10 @@
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/install/strip.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/install/local.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/install.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/list_install_components.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/rebuild_cache.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/edit_cache.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/test.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/lidar.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/lidar_pkg_uninstall.dir
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg/CMakeFiles/uninstall.dir

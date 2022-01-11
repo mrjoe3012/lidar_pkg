@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target lidar[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar[0m
+[100%] Built target lidar
+-- Install configuration: ""
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/lib/lidar_pkg/lidar
+-- Set runtime path of "/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/lib/lidar_pkg/lidar" to ""
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.dsv
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+-- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+-- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.xml

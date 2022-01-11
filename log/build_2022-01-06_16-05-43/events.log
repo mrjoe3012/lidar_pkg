@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (lidar_pkg) JobQueued: {'identifier': 'lidar_pkg', 'dependencies': OrderedDict()}
+[0.000820] (lidar_pkg) JobStarted: {'identifier': 'lidar_pkg'}
+[0.026436] (lidar_pkg) JobProgress: {'identifier': 'lidar_pkg', 'progress': 'cmake'}
+[0.027998] (lidar_pkg) JobProgress: {'identifier': 'lidar_pkg', 'progress': 'build'}
+[0.029782] (lidar_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg', '--', '-j8', '-l8'], 'cwd': '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_GB:en'), ('USER', 'joe'), ('SSH_AGENT_PID', '1648'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/joe/Documents/projects/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joe/Documents/projects/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('JOURNAL_STREAM', '8:49523'), ('EUFS_MASTER', '/home/joe/Documents/projects/dvsim'), ('_', '/home/joe/anaconda3/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/joe/anaconda3/bin:/home/joe/anaconda3/condabin:/home/joe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joe-HP-Laptop-15s-fq1xxx:@/tmp/.ICE-unix/1691,unix/joe-HP-Laptop-15s-fq1xxx:/tmp/.ICE-unix/1691'), ('INVOCATION_ID', 'cb31198a07a941cd960c68d65c97bfb9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/545d0b95_446b_4ee9_8c37_39681d8855da'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joe/Documents/projects/ros_ws/install/lidar_pkg:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/joe/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/joe/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/joe/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joe/Documents/projects/ros_ws/install/lidar_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.067474] (lidar_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.089944] (lidar_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/joe/anaconda3/bin/python3\n'}
+[0.099890] (-) TimerEvent: {}
+[0.200210] (-) TimerEvent: {}
+[0.283282] (lidar_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.300313] (-) TimerEvent: {}
+[0.353893] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.361733] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.362133] (lidar_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joe/Documents/projects/ros_ws/src/lidar_pkg/include>\n'}
+[0.362244] (lidar_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.368470] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.368658] (lidar_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.369781] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.372102] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.373211] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.379910] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.380134] (lidar_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.381208] (lidar_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.385478] (lidar_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.400415] (-) TimerEvent: {}
+[0.448001] (lidar_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.457620] (lidar_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500696] (-) TimerEvent: {}
+[0.551704] (lidar_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.588132] (lidar_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.600814] (-) TimerEvent: {}
+[0.680025] (lidar_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701087] (-) TimerEvent: {}
+[0.750906] (lidar_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.753372] (lidar_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.755593] (lidar_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.801199] (-) TimerEvent: {}
+[0.837443] (lidar_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.837927] (lidar_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901418] (-) TimerEvent: {}
+[0.919902] (lidar_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.920269] (lidar_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.993436] (lidar_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.993822] (lidar_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.001562] (-) TimerEvent: {}
+[1.077558] (lidar_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.079370] (lidar_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101667] (-) TimerEvent: {}
+[1.202031] (-) TimerEvent: {}
+[1.276129] (lidar_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.302124] (-) TimerEvent: {}
+[1.402489] (-) TimerEvent: {}
+[1.407262] (lidar_pkg) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.496468] (lidar_pkg) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.496735] (lidar_pkg) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.496909] (lidar_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.497015] (lidar_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.497116] (lidar_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.497245] (lidar_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.497382] (lidar_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.497517] (lidar_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.497812] (lidar_pkg) StdoutLine: {'line': b'\n'}
+[1.497981] (lidar_pkg) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.498136] (lidar_pkg) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.498263] (lidar_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.498403] (lidar_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.498517] (lidar_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.498739] (lidar_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.498856] (lidar_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.498976] (lidar_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.499184] (lidar_pkg) StdoutLine: {'line': b'\n'}
+[1.499371] (lidar_pkg) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.499531] (lidar_pkg) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.499712] (lidar_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.499862] (lidar_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.500048] (lidar_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.500196] (lidar_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.500376] (lidar_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.500547] (lidar_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.500691] (lidar_pkg) StdoutLine: {'line': b'\n'}
+[1.500857] (lidar_pkg) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.500995] (lidar_pkg) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.501156] (lidar_pkg) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.501287] (lidar_pkg) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.501445] (lidar_pkg) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.501577] (lidar_pkg) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.501710] (lidar_pkg) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.501840] (lidar_pkg) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.501966] (lidar_pkg) StdoutLine: {'line': b'\n'}
+[1.502554] (-) TimerEvent: {}
+[1.522252] (lidar_pkg) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.530501] (lidar_pkg) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.530986] (lidar_pkg) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.531287] (lidar_pkg) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.545436] (lidar_pkg) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.553344] (lidar_pkg) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.560920] (lidar_pkg) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.574203] (lidar_pkg) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.581589] (lidar_pkg) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.593788] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.594480] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.595147] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.595838] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.596710] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.597527] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.598286] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.598837] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.599406] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.600253] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.601151] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.601849] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.602635] (-) TimerEvent: {}
+[1.602870] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.603833] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.604855] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.605768] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.606522] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.607323] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.608271] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.609071] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.610442] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.610947] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.611542] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.612424] (lidar_pkg) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.616595] (lidar_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.643334] (lidar_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.645828] (lidar_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg\n'}
+[1.676522] (lidar_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar\x1b[0m\n'}
+[1.695624] (lidar_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o\x1b[0m\n'}
+[1.702814] (-) TimerEvent: {}
+[1.705327] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.h: No such file or directory\n'}
+[1.705563] (lidar_pkg) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<rclcpp/rclcpp.h>\x1b[m\x1b[K\n'}
+[1.705700] (lidar_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.705824] (lidar_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.706622] (lidar_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1\n'}
+[1.706932] (lidar_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2\n'}
+[1.707117] (lidar_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.709764] (lidar_pkg) CommandEnded: {'returncode': 2}
+[1.785101] (lidar_pkg) JobEnded: {'identifier': 'lidar_pkg', 'rc': 2}
+[1.795998] (-) EventReactorShutdown: {}

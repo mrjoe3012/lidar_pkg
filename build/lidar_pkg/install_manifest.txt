@@ -1,0 +1,16 @@
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/lib/lidar_pkg/lidar
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.dsv
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.xml

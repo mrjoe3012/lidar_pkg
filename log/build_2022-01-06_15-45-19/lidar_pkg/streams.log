@@ -1,0 +1,58 @@
+[0.099s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/joe/Documents/projects/ros_ws/src/lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg
+[0.349s] -- The C compiler identification is GNU 9.3.0
+[0.614s] -- The CXX compiler identification is GNU 9.3.0
+[0.635s] -- Check for working C compiler: /usr/bin/cc
+[0.812s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.815s] -- Detecting C compiler ABI info
+[0.995s] -- Detecting C compiler ABI info - done
+[1.032s] -- Detecting C compile features
+[1.033s] -- Detecting C compile features - done
+[1.041s] -- Check for working CXX compiler: /usr/bin/c++
+[1.232s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.234s] -- Detecting CXX compiler ABI info
+[1.435s] -- Detecting CXX compiler ABI info - done
+[1.464s] -- Detecting CXX compile features
+[1.466s] -- Detecting CXX compile features - done
+[1.476s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.536s] -- Found PythonInterp: /home/joe/anaconda3/bin/python3 (found suitable version "3.8.8", minimum required is "3") 
+[1.537s] -- Using PYTHON_EXECUTABLE: /home/joe/anaconda3/bin/python3
+[2.080s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.273s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.281s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.282s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joe/Documents/projects/ros_ws/src/lidar_pkg/include>
+[2.282s] -- Configured cppcheck exclude dirs and/or files: 
+[2.291s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.291s] -- Configured cpplint exclude dirs and/or files: 
+[2.295s] -- Added test 'lint_cmake' to check CMake code style
+[2.306s] -- Added test 'uncrustify' to check C / C++ code style
+[2.306s] -- Configured uncrustify additional arguments: 
+[2.308s] -- Added test 'xmllint' to check XML markup files
+[2.313s] -- Configuring done
+[2.321s] -- Generating done
+[2.324s] -- Build files have been written to: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg
+[2.338s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/joe/Documents/projects/ros_ws/src/lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg
+[2.340s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[2.429s] [35m[1mScanning dependencies of target lidar[0m
+[2.461s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[2.570s] [100%] [32m[1mLinking CXX executable lidar[0m
+[2.681s] [100%] Built target lidar
+[2.709s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[2.787s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg
+[2.807s] -- Install configuration: ""
+[2.807s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/lib/lidar_pkg/lidar
+[2.807s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+[2.807s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+[2.808s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+[2.808s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+[2.808s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+[2.808s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+[2.808s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+[2.808s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+[2.809s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+[2.809s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+[2.809s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.dsv
+[2.809s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+[2.810s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+[2.810s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+[2.810s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.xml
+[2.817s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg

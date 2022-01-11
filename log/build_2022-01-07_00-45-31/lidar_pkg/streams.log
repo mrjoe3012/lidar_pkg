@@ -1,0 +1,148 @@
+[0.032s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[0.160s] [35m[1mScanning dependencies of target lidar[0m
+[0.220s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[5.703s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.703s]    15 | void pointCloudMsgCallback(const boost::shared_ptr<const [01;31m[Ksensor_msgs[m[K::PointCloud2>& msg)
+[5.703s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[5.704s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.704s]    15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2[01;31m[K>[m[K& msg)
+[5.704s]       |                                                              [01;31m[K^[m[K
+[5.704s] 
+[5.704s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.704s]    15 | void pointCloudMsgCallback(const boost::shared_ptr<const [01;31m[Ksensor_msgs[m[K::PointCloud2>& msg)
+[5.705s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[5.705s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.705s]    15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2[01;31m[K>[m[K& msg)
+[5.705s]       |                                                              [01;31m[K^[m[K
+[5.705s] 
+[5.705s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.705s]    15 | void pointCloudMsgCallback(const boost::shared_ptr<const [01;31m[Ksensor_msgs[m[K::PointCloud2>& msg)
+[5.705s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[5.705s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.705s]    15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2[01;31m[K>[m[K& msg)
+[5.706s]       |                                                              [01;31m[K^[m[K
+[5.706s] 
+[5.706s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.706s]    15 | void pointCloudMsgCallback(const boost::shared_ptr<const [01;31m[Ksensor_msgs[m[K::PointCloud2>& msg)
+[5.706s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[5.706s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.706s]    15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2[01;31m[K>[m[K& msg)
+[5.706s]       |                                                              [01;31m[K^[m[K
+[5.706s] 
+[5.706s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[5.706s]    15 | void pointCloudMsgCallback(const boost::shared_ptr<const [01;31m[Ksensor_msgs[m[K::PointCloud2>& msg)
+[5.707s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[5.707s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.707s]    15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2[01;31m[K>[m[K& msg)
+[5.707s]       |                                                              [01;31m[K^[m[K
+[5.707s] 
+[5.707s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:34:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Kboost::shared_ptr[m[K’ without an argument list
+[5.707s]    15 | void pointCloudMsgCallback(const [01;31m[Kboost[m[K::shared_ptr<const sensor_msgs::PointCloud2>& msg)
+[5.707s]       |                                  [01;31m[K^~~~~[m[K
+[5.707s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:34:[m[K [01;36m[Knote: [m[Kclass template argument deduction is only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[5.708s] In file included from [01m[K/usr/include/boost/throw_exception.hpp:36[m[K,
+[5.708s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:27[m[K,
+[5.708s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[5.708s]                  from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:9[m[K,
+[5.708s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[5.708s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:4[m[K:
+[5.708s] [01m[K/usr/include/boost/exception/exception.hpp:15:44:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class T> class boost::shared_ptr[m[K’ declared here
+[5.708s]    15 | namespace boost { template <class T> class [01;36m[Kshared_ptr[m[K; }
+[5.708s]       |                                            [01;36m[K^~~~~~~~~~[m[K
+[5.708s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[5.709s]    15 | void pointCloudMsgCallback(const boost::shared_ptr[01;31m[K<[m[Kconst sensor_msgs::PointCloud2>& msg)
+[5.709s]       |                                                   [01;31m[K^[m[K
+[5.709s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:[m[K In function ‘[01m[Kvoid pointCloudMsgCallback(int)[m[K’:
+[5.709s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[5.709s]    18 |  pcl_conversions::toPCL(*[01;31m[Kmsg[m[K, pc2);
+[5.709s]       |                          [01;31m[K^~~[m[K
+[5.709s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:18:26:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.709s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[5.709s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[5.709s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[5.709s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.710s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.711s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1[m[K:
+[5.711s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[5.711s]    26 | namespace [01;36m[Kmsg[m[K
+[5.711s]       |           [01;36m[K^~~[m[K
+[5.711s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[5.711s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[5.711s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[5.711s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[5.711s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[5.711s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.712s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.713s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1[m[K:
+[5.713s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[5.713s]    26 | namespace [01;36m[Kmsg[m[K
+[5.713s]       |           [01;36m[K^~~[m[K
+[5.713s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[5.713s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[5.713s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.713s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.713s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.713s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1[m[K:
+[5.714s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[5.714s]    26 | namespace [01;36m[Kmsg[m[K
+[5.714s]       |           [01;36m[K^~~[m[K
+[5.714s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:19[m[K,
+[5.714s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[5.714s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:2[m[K:
+[5.714s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[5.715s]    30 | namespace [01;36m[Kmsg[m[K
+[5.715s]       |           [01;36m[K^~~[m[K
+[5.715s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:21[m[K,
+[5.715s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[5.715s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:2[m[K:
+[5.715s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_field__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[5.715s]    26 | namespace [01;36m[Kmsg[m[K
+[5.715s]       |           [01;36m[K^~~[m[K
+[5.715s] In file included from [01m[K/opt/ros/foxy/include/pcl_msgs/msg/point_indices.hpp:7[m[K,
+[5.715s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:61[m[K,
+[5.716s]                  from [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:5[m[K:
+[5.716s] [01m[K/opt/ros/foxy/include/pcl_msgs/msg/detail/point_indices__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl_msgs::msg[m[K’
+[5.716s]    30 | namespace [01;36m[Kmsg[m[K
+[5.716s]       |           [01;36m[K^~~[m[K
+[5.716s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:24:20:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst pcl::PointCloud<pcl::PointXYZ>&[m[K’ from expression of type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’}
+[5.716s]    24 |  processPointCloud([01;31m[KpCloud[m[K);
+[5.716s]       |                    [01;31m[K^~~~~~[m[K
+[5.716s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:13:24:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid processPointCloud(const pcl::PointCloud<pcl::PointXYZ>&)[m[K’
+[5.716s]    13 | void processPointCloud([01;36m[Kconst pcl::PointCloud<pcl::PointXYZ>&[m[K);
+[5.716s]       |                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.717s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:[m[K In function ‘[01m[Kvoid processPointCloud(const Ptr&)[m[K’:
+[5.717s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:28:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpCloud[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.717s]    28 | void processPointCloud([01;35m[Kconst pcl::PointCloud<pcl::PointXYZ>::Ptr& pCloud[m[K)
+[5.717s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.717s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.717s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:35:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[5.717s]    35 |  [01;31m[Kros[m[K::init(argc, argv, "lidar_pkg");
+[5.717s]       |  [01;31m[K^~~[m[K
+[5.717s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:37:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[5.717s]    37 |  [01;31m[Kros[m[K::NodeHandle node;
+[5.717s]       |  [01;31m[K^~~[m[K
+[5.717s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:39:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[5.718s]    39 |  [01;31m[Kros[m[K::Subscriber subscriber = node.subscribe(TOPIC_NAME, MSG_QUEUE_SIZE, pointCloudMsgCallback);
+[5.718s]       |  [01;31m[K^~~[m[K
+[5.718s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:41:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[5.718s]    41 |  [01;31m[Kros[m[K::spin();
+[5.718s]       |  [01;31m[K^~~[m[K
+[6.684s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+[6.684s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[6.684s] make: *** [Makefile:141: all] Error 2
+[6.687s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8

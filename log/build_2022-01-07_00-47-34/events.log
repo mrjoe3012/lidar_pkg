@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000996] (lidar_pkg) JobQueued: {'identifier': 'lidar_pkg', 'dependencies': OrderedDict()}
+[0.001070] (lidar_pkg) JobStarted: {'identifier': 'lidar_pkg'}
+[0.026359] (lidar_pkg) JobProgress: {'identifier': 'lidar_pkg', 'progress': 'cmake'}
+[0.033774] (lidar_pkg) JobProgress: {'identifier': 'lidar_pkg', 'progress': 'build'}
+[0.033957] (lidar_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg', '--', '-j8', '-l8'], 'cwd': '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_GB:en'), ('USER', 'joe'), ('SSH_AGENT_PID', '1654'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joe'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/joe/Documents/projects/ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joe'), ('JOURNAL_STREAM', '8:46896'), ('EUFS_MASTER', '/home/joe/Documents/projects/dvsim'), ('_', '/home/joe/anaconda3/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joe'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/joe/anaconda3/bin:/home/joe/anaconda3/condabin:/home/joe/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joe-HP-Laptop-15s-fq1xxx:@/tmp/.ICE-unix/1698,unix/joe-HP-Laptop-15s-fq1xxx:/tmp/.ICE-unix/1698'), ('INVOCATION_ID', '3bf22d2660dd4d4188e17cb384d0107c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/471f2558_b1b3_46b3_9b82_0343444e09a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/joe/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/joe/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/joe/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100114] (-) TimerEvent: {}
+[0.164856] (lidar_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar\x1b[0m\n'}
+[0.200252] (-) TimerEvent: {}
+[0.207695] (lidar_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o\x1b[0m\n'}
+[0.300556] (-) TimerEvent: {}
+[0.401145] (-) TimerEvent: {}
+[0.501635] (-) TimerEvent: {}
+[0.602185] (-) TimerEvent: {}
+[0.702707] (-) TimerEvent: {}
+[0.803258] (-) TimerEvent: {}
+[0.903679] (-) TimerEvent: {}
+[1.004093] (-) TimerEvent: {}
+[1.104652] (-) TimerEvent: {}
+[1.205190] (-) TimerEvent: {}
+[1.305779] (-) TimerEvent: {}
+[1.406305] (-) TimerEvent: {}
+[1.506670] (-) TimerEvent: {}
+[1.607031] (-) TimerEvent: {}
+[1.707416] (-) TimerEvent: {}
+[1.807823] (-) TimerEvent: {}
+[1.908269] (-) TimerEvent: {}
+[2.008672] (-) TimerEvent: {}
+[2.109073] (-) TimerEvent: {}
+[2.209462] (-) TimerEvent: {}
+[2.309954] (-) TimerEvent: {}
+[2.410330] (-) TimerEvent: {}
+[2.510699] (-) TimerEvent: {}
+[2.611108] (-) TimerEvent: {}
+[2.711468] (-) TimerEvent: {}
+[2.811839] (-) TimerEvent: {}
+[2.912311] (-) TimerEvent: {}
+[3.012830] (-) TimerEvent: {}
+[3.113208] (-) TimerEvent: {}
+[3.213706] (-) TimerEvent: {}
+[3.314309] (-) TimerEvent: {}
+[3.414746] (-) TimerEvent: {}
+[3.515187] (-) TimerEvent: {}
+[3.615586] (-) TimerEvent: {}
+[3.716017] (-) TimerEvent: {}
+[3.816545] (-) TimerEvent: {}
+[3.917080] (-) TimerEvent: {}
+[4.017648] (-) TimerEvent: {}
+[4.118131] (-) TimerEvent: {}
+[4.218539] (-) TimerEvent: {}
+[4.319040] (-) TimerEvent: {}
+[4.419383] (-) TimerEvent: {}
+[4.519961] (-) TimerEvent: {}
+[4.620451] (-) TimerEvent: {}
+[4.720998] (-) TimerEvent: {}
+[4.821431] (-) TimerEvent: {}
+[4.921767] (-) TimerEvent: {}
+[5.022205] (-) TimerEvent: {}
+[5.122701] (-) TimerEvent: {}
+[5.223279] (-) TimerEvent: {}
+[5.225813] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.228503] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const boost::shared_ptr<const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::PointCloud2>& msg)\n'}
+[5.228684] (lidar_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.228791] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.228897] (lidar_pkg) StderrLine: {'line': b'   15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K& msg)\n'}
+[5.228990] (lidar_pkg) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.229082] (lidar_pkg) StderrLine: {'line': b'\n'}
+[5.229174] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.229278] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const boost::shared_ptr<const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::PointCloud2>& msg)\n'}
+[5.229370] (lidar_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.229462] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.229578] (lidar_pkg) StderrLine: {'line': b'   15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K& msg)\n'}
+[5.229666] (lidar_pkg) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.229754] (lidar_pkg) StderrLine: {'line': b'\n'}
+[5.229842] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.229931] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const boost::shared_ptr<const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::PointCloud2>& msg)\n'}
+[5.230018] (lidar_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.230106] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.230194] (lidar_pkg) StderrLine: {'line': b'   15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K& msg)\n'}
+[5.230286] (lidar_pkg) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.230373] (lidar_pkg) StderrLine: {'line': b'\n'}
+[5.230475] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.230571] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const boost::shared_ptr<const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::PointCloud2>& msg)\n'}
+[5.230661] (lidar_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.230749] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.230869] (lidar_pkg) StderrLine: {'line': b'   15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K& msg)\n'}
+[5.230961] (lidar_pkg) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.231054] (lidar_pkg) StderrLine: {'line': b'\n'}
+[5.231145] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[5.231239] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const boost::shared_ptr<const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::PointCloud2>& msg)\n'}
+[5.231332] (lidar_pkg) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.231456] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.231551] (lidar_pkg) StderrLine: {'line': b'   15 | llback(const boost::shared_ptr<const sensor_msgs::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K& msg)\n'}
+[5.231642] (lidar_pkg) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.231731] (lidar_pkg) StderrLine: {'line': b'\n'}
+[5.231821] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[5.231912] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const \x1b[01;31m\x1b[Kboost\x1b[m\x1b[K::shared_ptr<const sensor_msgs::PointCloud2>& msg)\n'}
+[5.232006] (lidar_pkg) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.232103] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.232194] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/throw_exception.hpp:36\x1b[m\x1b[K,\n'}
+[5.232282] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:27\x1b[m\x1b[K,\n'}
+[5.232396] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[5.232488] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:9\x1b[m\x1b[K,\n'}
+[5.232579] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[5.232669] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:4\x1b[m\x1b[K:\n'}
+[5.232785] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/exception/exception.hpp:15:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> class boost::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.232872] (lidar_pkg) StderrLine: {'line': b'   15 | namespace boost { template <class T> class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K; }\n'}
+[5.232958] (lidar_pkg) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.233044] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:15:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.233131] (lidar_pkg) StderrLine: {'line': b'   15 | void pointCloudMsgCallback(const boost::shared_ptr\x1b[01;31m\x1b[K<\x1b[m\x1b[Kconst sensor_msgs::PointCloud2>& msg)\n'}
+[5.233219] (lidar_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.233310] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid pointCloudMsgCallback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.233398] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:18:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.233492] (lidar_pkg) StderrLine: {'line': b'   18 |  pcl_conversions::toPCL(*\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K, pc2);\n'}
+[5.233578] (lidar_pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.233665] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:18:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[5.233753] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[5.233839] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[5.233926] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[5.234050] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[5.234159] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[5.234347] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.234500] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.234628] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.234729] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.234829] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.234940] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.235189] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[5.235317] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.235449] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.235559] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1\x1b[m\x1b[K:\n'}
+[5.235671] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.235957] (lidar_pkg) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.236070] (lidar_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.236176] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[5.236280] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[5.236408] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[5.236510] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[5.236617] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[5.236728] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[5.236853] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.236948] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.237092] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.237246] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.237353] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[5.237579] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.237704] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.237854] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1\x1b[m\x1b[K:\n'}
+[5.237956] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.238065] (lidar_pkg) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.238188] (lidar_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.238287] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[5.238386] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:34\x1b[m\x1b[K,\n'}
+[5.238500] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.238718] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.238813] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.238908] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1\x1b[m\x1b[K:\n'}
+[5.239002] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.239124] (lidar_pkg) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.239227] (lidar_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.239327] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:19\x1b[m\x1b[K,\n'}
+[5.239428] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[5.239531] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:2\x1b[m\x1b[K:\n'}
+[5.239638] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.239758] (lidar_pkg) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.239862] (lidar_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.239992] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:21\x1b[m\x1b[K,\n'}
+[5.240096] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[5.240222] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:2\x1b[m\x1b[K:\n'}
+[5.240328] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_field__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.240431] (lidar_pkg) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.240532] (lidar_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.240629] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_msgs/msg/point_indices.hpp:7\x1b[m\x1b[K,\n'}
+[5.240728] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:61\x1b[m\x1b[K,\n'}
+[5.240825] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:5\x1b[m\x1b[K:\n'}
+[5.240920] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/pcl_msgs/msg/detail/point_indices__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kpcl_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.241047] (lidar_pkg) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[5.241439] (lidar_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.241559] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:24:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst pcl::PointCloud<pcl::PointXYZ>&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Kpcl::PointCloud<pcl::PointXYZ>::Ptr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.241682] (lidar_pkg) StderrLine: {'line': b'   24 |  processPointCloud(\x1b[01;31m\x1b[KpCloud\x1b[m\x1b[K);\n'}
+[5.241812] (lidar_pkg) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.241920] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:13:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid processPointCloud(const pcl::PointCloud<pcl::PointXYZ>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.242032] (lidar_pkg) StderrLine: {'line': b'   13 | void processPointCloud(\x1b[01;36m\x1b[Kconst pcl::PointCloud<pcl::PointXYZ>&\x1b[m\x1b[K);\n'}
+[5.242129] (lidar_pkg) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.242224] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid processPointCloud(const Ptr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.242320] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:28:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KpCloud\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.242442] (lidar_pkg) StderrLine: {'line': b'   28 | void processPointCloud(\x1b[01;35m\x1b[Kconst pcl::PointCloud<pcl::PointXYZ>::Ptr& pCloud\x1b[m\x1b[K)\n'}
+[5.242568] (lidar_pkg) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.242662] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.242766] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:35:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid initialization of reference of type \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::InitOptions&\x1b[m\x1b[K\xe2\x80\x99 from expression of type \xe2\x80\x98\x1b[01m\x1b[Kconst char [10]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.242891] (lidar_pkg) StderrLine: {'line': b'   35 |  rclcpp::init(argc, argv, \x1b[01;31m\x1b[K"lidar_pkg"\x1b[m\x1b[K);\n'}
+[5.242982] (lidar_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.243071] (lidar_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:36\x1b[m\x1b[K,\n'}
+[5.243197] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.243288] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.243379] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.243469] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.243559] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.243669] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.243752] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[5.243835] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.243918] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[5.243999] (lidar_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1\x1b[m\x1b[K:\n'}
+[5.244080] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/utilities.hpp:56:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin passing argument 3 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.244172] (lidar_pkg) StderrLine: {'line': b'   56 | nit(int argc, char const * const argv[], \x1b[01;36m\x1b[Kconst InitOptions & init_options = InitOptions()\x1b[m\x1b[K);\n'}
+[5.244255] (lidar_pkg) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.244339] (lidar_pkg) StderrLine: {'line': b'\n'}
+[5.244421] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:37:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNodeHandle\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.244505] (lidar_pkg) StderrLine: {'line': b'   37 |  rclcpp::\x1b[01;31m\x1b[KNodeHandle\x1b[m\x1b[K node;\n'}
+[5.244594] (lidar_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.244672] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:39:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscriber\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.244759] (lidar_pkg) StderrLine: {'line': b'   39 |  rclcpp::\x1b[01;31m\x1b[KSubscriber\x1b[m\x1b[K subscriber = node.subscribe(TOPIC_NAME, MSG_QUEUE_SIZE, pointCloudMsgCallback);\n'}
+[5.244840] (lidar_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.244919] (lidar_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:41:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.244997] (lidar_pkg) StderrLine: {'line': b'   41 |  rclcpp::spin(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K);\n'}
+[5.245076] (lidar_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.323505] (-) TimerEvent: {}
+[5.423845] (-) TimerEvent: {}
+[5.524401] (-) TimerEvent: {}
+[5.624882] (-) TimerEvent: {}
+[5.725351] (-) TimerEvent: {}
+[5.825739] (-) TimerEvent: {}
+[5.926110] (-) TimerEvent: {}
+[6.026506] (-) TimerEvent: {}
+[6.126866] (-) TimerEvent: {}
+[6.201587] (lidar_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1\n'}
+[6.201921] (lidar_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2\n'}
+[6.202106] (lidar_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.204731] (lidar_pkg) CommandEnded: {'returncode': 2}
+[6.284727] (-) TimerEvent: {}
+[6.323930] (lidar_pkg) JobEnded: {'identifier': 'lidar_pkg', 'rc': 2}
+[6.335097] (-) EventReactorShutdown: {}

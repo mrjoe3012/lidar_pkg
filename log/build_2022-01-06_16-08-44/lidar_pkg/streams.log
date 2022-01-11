@@ -1,0 +1,106 @@
+[0.025s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[0.058s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /home/joe/anaconda3/bin/python3
+[0.280s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.350s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.359s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.359s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joe/Documents/projects/ros_ws/src/lidar_pkg/include>
+[0.359s] -- Configured cppcheck exclude dirs and/or files: 
+[0.366s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.367s] -- Configured cpplint exclude dirs and/or files: 
+[0.368s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.370s] -- Added test 'lint_cmake' to check CMake code style
+[0.372s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.379s] -- Added test 'uncrustify' to check C / C++ code style
+[0.379s] -- Configured uncrustify additional arguments: 
+[0.380s] -- Added test 'xmllint' to check XML markup files
+[0.381s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.608s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.609s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.756s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.875s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.964s] -- The imported target "vtkParseOGLExt" references the file
+[0.964s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.965s] but this file does not exist.  Possible reasons include:
+[0.965s] * The file was deleted, renamed, or moved to another location.
+[0.965s] * An install or uninstall procedure did not complete successfully.
+[0.965s] * The installation package was faulty and contained
+[0.965s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.965s] but not all the files it references.
+[0.965s] 
+[0.966s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.966s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.966s] but this file does not exist.  Possible reasons include:
+[0.966s] * The file was deleted, renamed, or moved to another location.
+[0.966s] * An install or uninstall procedure did not complete successfully.
+[0.967s] * The installation package was faulty and contained
+[0.967s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.967s] but not all the files it references.
+[0.967s] 
+[0.967s] -- The imported target "vtk" references the file
+[0.967s]    "/usr/bin/vtk"
+[0.968s] but this file does not exist.  Possible reasons include:
+[0.968s] * The file was deleted, renamed, or moved to another location.
+[0.968s] * An install or uninstall procedure did not complete successfully.
+[0.968s] * The installation package was faulty and contained
+[0.968s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.969s] but not all the files it references.
+[0.969s] 
+[0.969s] -- The imported target "pvtk" references the file
+[0.969s]    "/usr/bin/pvtk"
+[0.969s] but this file does not exist.  Possible reasons include:
+[0.969s] * The file was deleted, renamed, or moved to another location.
+[0.970s] * An install or uninstall procedure did not complete successfully.
+[0.970s] * The installation package was faulty and contained
+[0.970s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.970s] but not all the files it references.
+[0.970s] 
+[0.989s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.999s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.999s] ** WARNING ** io features related to pcap will be disabled
+[0.999s] ** WARNING ** io features related to png will be disabled
+[1.014s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.024s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.033s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.050s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.058s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.073s] -- looking for PCL_COMMON
+[1.073s] -- looking for PCL_KDTREE
+[1.074s] -- looking for PCL_OCTREE
+[1.074s] -- looking for PCL_SEARCH
+[1.075s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.076s] -- looking for PCL_FILTERS
+[1.077s] -- looking for PCL_2D
+[1.077s] -- looking for PCL_GEOMETRY
+[1.078s] -- looking for PCL_IO
+[1.078s] -- looking for PCL_FEATURES
+[1.079s] -- looking for PCL_ML
+[1.080s] -- looking for PCL_SEGMENTATION
+[1.081s] -- looking for PCL_VISUALIZATION
+[1.082s] -- looking for PCL_SURFACE
+[1.083s] -- looking for PCL_REGISTRATION
+[1.084s] -- looking for PCL_KEYPOINTS
+[1.085s] -- looking for PCL_TRACKING
+[1.085s] -- looking for PCL_RECOGNITION
+[1.086s] -- looking for PCL_STEREO
+[1.087s] -- looking for PCL_APPS
+[1.088s] -- looking for PCL_IN_HAND_SCANNER
+[1.089s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.090s] -- looking for PCL_OUTOFCORE
+[1.090s] -- looking for PCL_PEOPLE
+[1.096s] -- Configuring done
+[1.133s] -- Generating done
+[1.136s] -- Build files have been written to: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg
+[1.171s] [35m[1mScanning dependencies of target lidar[0m
+[1.320s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[1.458s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/PointCloud2.h: No such file or directory
+[1.458s]     2 | #include [01;31m[K"sensor_msgs/PointCloud2.h"[m[K
+[1.458s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.458s] compilation terminated.
+[1.460s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+[1.461s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[1.461s] make: *** [Makefile:141: all] Error 2
+[1.464s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8

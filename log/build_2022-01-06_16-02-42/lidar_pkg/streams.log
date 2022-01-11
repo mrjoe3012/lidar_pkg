@@ -1,0 +1,138 @@
+[0.033s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[0.061s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.084s] -- Using PYTHON_EXECUTABLE: /home/joe/anaconda3/bin/python3
+[0.291s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.371s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.371s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joe/Documents/projects/ros_ws/src/lidar_pkg/include>
+[0.372s] -- Configured cppcheck exclude dirs and/or files: 
+[0.378s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.378s] -- Configured cpplint exclude dirs and/or files: 
+[0.379s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.382s] -- Added test 'lint_cmake' to check CMake code style
+[0.383s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.389s] -- Added test 'uncrustify' to check C / C++ code style
+[0.389s] -- Configured uncrustify additional arguments: 
+[0.390s] -- Added test 'xmllint' to check XML markup files
+[0.405s] -- Checking for module 'eigen3'
+[0.422s] --   Found eigen3, version 3.3.7
+[0.467s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.467s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.522s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[0.544s] -- Checking for module 'flann'
+[0.561s] --   Found flann, version 1.9.1
+[0.617s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.674s] -- The imported target "vtkParseOGLExt" references the file
+[0.674s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.674s] but this file does not exist.  Possible reasons include:
+[0.674s] * The file was deleted, renamed, or moved to another location.
+[0.674s] * An install or uninstall procedure did not complete successfully.
+[0.674s] * The installation package was faulty and contained
+[0.674s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.675s] but not all the files it references.
+[0.675s] 
+[0.675s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.675s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.675s] but this file does not exist.  Possible reasons include:
+[0.675s] * The file was deleted, renamed, or moved to another location.
+[0.675s] * An install or uninstall procedure did not complete successfully.
+[0.675s] * The installation package was faulty and contained
+[0.675s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.676s] but not all the files it references.
+[0.676s] 
+[0.676s] -- The imported target "vtk" references the file
+[0.676s]    "/usr/bin/vtk"
+[0.676s] but this file does not exist.  Possible reasons include:
+[0.676s] * The file was deleted, renamed, or moved to another location.
+[0.676s] * An install or uninstall procedure did not complete successfully.
+[0.676s] * The installation package was faulty and contained
+[0.677s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.677s] but not all the files it references.
+[0.677s] 
+[0.677s] -- The imported target "pvtk" references the file
+[0.677s]    "/usr/bin/pvtk"
+[0.677s] but this file does not exist.  Possible reasons include:
+[0.677s] * The file was deleted, renamed, or moved to another location.
+[0.677s] * An install or uninstall procedure did not complete successfully.
+[0.677s] * The installation package was faulty and contained
+[0.678s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.678s] but not all the files it references.
+[0.678s] 
+[0.696s] -- Checking for module 'libusb-1.0'
+[0.714s] --   Found libusb-1.0, version 1.0.23
+[0.760s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.828s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[0.828s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.904s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[0.905s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.905s] ** WARNING ** io features related to pcap will be disabled
+[0.905s] ** WARNING ** io features related to png will be disabled
+[0.919s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.920s] -- Found libusb-1.0: /usr/include  
+[0.928s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.937s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.964s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[0.964s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.972s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.984s] -- looking for PCL_COMMON
+[0.985s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.986s] -- looking for PCL_KDTREE
+[0.987s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[0.987s] -- looking for PCL_OCTREE
+[0.988s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[0.989s] -- looking for PCL_SEARCH
+[0.990s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[0.990s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.992s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[0.992s] -- looking for PCL_FILTERS
+[0.993s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[0.993s] -- looking for PCL_2D
+[0.994s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[0.994s] -- looking for PCL_GEOMETRY
+[0.995s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[0.995s] -- looking for PCL_IO
+[0.996s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[0.997s] -- looking for PCL_FEATURES
+[0.998s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[0.998s] -- looking for PCL_ML
+[0.999s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.000s] -- looking for PCL_SEGMENTATION
+[1.001s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.002s] -- looking for PCL_VISUALIZATION
+[1.003s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.004s] -- looking for PCL_SURFACE
+[1.005s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.006s] -- looking for PCL_REGISTRATION
+[1.007s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.007s] -- looking for PCL_KEYPOINTS
+[1.009s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.009s] -- looking for PCL_TRACKING
+[1.011s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.011s] -- looking for PCL_RECOGNITION
+[1.013s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.013s] -- looking for PCL_STEREO
+[1.015s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.015s] -- looking for PCL_APPS
+[1.016s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.017s] -- looking for PCL_IN_HAND_SCANNER
+[1.018s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.018s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.019s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.019s] -- looking for PCL_OUTOFCORE
+[1.020s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.021s] -- looking for PCL_PEOPLE
+[1.022s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.023s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.2") 
+[1.025s] -- Configuring done
+[1.057s] -- Generating done
+[1.058s] -- Build files have been written to: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg
+[1.089s] [35m[1mScanning dependencies of target lidar[0m
+[1.192s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[1.205s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kros/ros.h: No such file or directory
+[1.205s]     1 | #include [01;31m[K<ros/ros.h>[m[K
+[1.205s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[1.205s] compilation terminated.
+[1.206s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+[1.206s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[1.207s] make: *** [Makefile:141: all] Error 2
+[1.211s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8

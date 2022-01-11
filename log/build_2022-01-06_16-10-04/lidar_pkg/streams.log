@@ -1,0 +1,11 @@
+[0.030s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[0.081s] [35m[1mScanning dependencies of target lidar[0m
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[0.245s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/PointCloud2.hpp: No such file or directory
+[0.245s]     2 | #include [01;31m[K"sensor_msgs/msg/PointCloud2.hpp"[m[K
+[0.245s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.245s] compilation terminated.
+[0.247s] make[2]: *** [CMakeFiles/lidar.dir/build.make:63: CMakeFiles/lidar.dir/src/lidar.cpp.o] Error 1
+[0.248s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lidar.dir/all] Error 2
+[0.248s] make: *** [Makefile:141: all] Error 2
+[0.250s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8

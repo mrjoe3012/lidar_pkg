@@ -1,0 +1,33 @@
+[0.033s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[0.084s] [35m[1mScanning dependencies of target lidar[0m
+[0.137s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar.dir/src/lidar.cpp.o[0m
+[5.467s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.467s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:9:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.467s]     9 | int main([01;35m[Kint argc[m[K, char ** argv)
+[5.468s]       |          [01;35m[K~~~~^~~~[m[K
+[5.468s] [01m[K/home/joe/Documents/projects/ros_ws/src/lidar_pkg/src/lidar.cpp:9:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.468s]     9 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+[5.468s]       |                    [01;35m[K~~~~~~~~^~~~[m[K
+[6.519s] [100%] [32m[1mLinking CXX executable lidar[0m
+[10.017s] [100%] Built target lidar
+[10.029s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg -- -j8 -l8
+[10.072s] Invoking command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg
+[10.081s] -- Install configuration: ""
+[10.081s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/lib/lidar_pkg/lidar
+[10.081s] -- Set runtime path of "/home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/lib/lidar_pkg/lidar" to ""
+[10.081s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+[10.082s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+[10.082s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+[10.082s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+[10.082s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+[10.082s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+[10.082s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+[10.082s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+[10.083s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+[10.083s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+[10.083s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.dsv
+[10.083s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+[10.083s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+[10.083s] -- Up-to-date: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+[10.083s] -- Installing: /home/joe/Documents/projects/ros_ws/src/lidar_pkg/install/lidar_pkg/share/lidar_pkg/package.xml
+[10.088s] Invoked command in '/home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/joe/Documents/projects/ros_ws/src/lidar_pkg/build/lidar_pkg
