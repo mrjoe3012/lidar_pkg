@@ -28,12 +28,19 @@ class LidarSubscriber : public rclcpp::Node
 
 		void callback(const sensor_msgs::msg::PointCloud2::SharedPtr pPc2)
 		{
-				
+			pcl::PCLPointCloud2 pclpc2;
+			pcl_conversions::toPCL(*pPc2, pclpc2);
+			
+			pcl::PointCloud<pcl::PointXYZ>::Ptr pCloud;
+			pcl::fromPCLPointCloud2(pclpc2, *pCloud);
+			
+			processPointCloud(pCloud);		
 		}
 
-		void processPointCloud()
+		void processPointCloud(pcl::PointCloud<pcl::PointXYZ>::Ptr pCloud)
 		{
-
+			// consume point cloud here
+			std::cout << "width: " << pCloud->width << "\n";
 		}
 
 };
